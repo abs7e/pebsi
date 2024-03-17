@@ -1,0 +1,34 @@
+{
+	"name": "abs7e",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/5116db79f852db113875c.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Source-Ze/tgme3",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "6575295322:AAEk0CP9fcsmbrDdQy7mYMTLZ_kEZDGaulU",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "0a64b7fb353afea42c8847bd5ae5c744",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "23308690",
+            "value": ""            
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
